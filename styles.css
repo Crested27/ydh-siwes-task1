@@ -6,10 +6,10 @@
   font-family: 'New Armsterdam', sans-serif;
 }
 body{
-  background: url(../IMAGES/image.jpg);
-  background-size: cover;
+  background: rgb(7, 185, 162);
+  /* background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 }
 .wrapper {
   display: flex;
@@ -37,7 +37,9 @@ body{
   margin: 0;
 }
 .hero .banner {
-  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero .banner h1,
 .hero .banner p {
@@ -47,15 +49,6 @@ body{
   /* letter-spacing: 2px; */
   /* word-spacing: 5px; */
   font-size: 40px;
-  animation: moveLeftRight 1s infinite alternate ease-in-out;
-}
-@keyframes moveLeftRight {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(20px);
-  }
 }
 .hero .banner p {
   color: #111;
@@ -79,19 +72,7 @@ body{
   align-items: center;
   overflow-y: hidden;
 }
-.animated-image {
-  animation: moveUpDown 1s infinite alternate ease-in-out;
-  margin-right: 120px;
-}
 
-@keyframes moveUpDown {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(20px);
-  }
-}
 @media (max-width: 1186px) {
   .hero .banner span {
     right: -400px;
@@ -241,7 +222,7 @@ header {
 #email, #password {
   width: 85%;
   border-radius: 30px;
-  margin-top: 5px;
+  margin-top: 15px;
   /* gap: 10px; */
 }
 .submit {
@@ -256,6 +237,7 @@ header {
   background: rgba(255, 255, 255, 0.5);
   cursor: pointer;
   transition: .3s ease-in-out;
+  margin-top: 15px;
 }   
 .submit:hover {
   background: rgba(255, 255, 255, 0.7);
