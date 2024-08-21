@@ -6,7 +6,7 @@
   font-family: 'New Armsterdam', sans-serif;
 }
 body{
-  background: rgb(7, 185, 162);
+  background: rgb(227, 231, 231);
   /* background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; */
@@ -31,9 +31,9 @@ body{
   gap: 150px;
   padding-top: 120px;
   padding-bottom: 120px;
-  position: relative;
-  left: 80px;
-  right: -300px;
+  /* position: relative; */
+  /* left: 80px; */
+  /* right: -300px; */
   margin: 0;
 }
 .hero .banner {
@@ -105,26 +105,27 @@ body{
   width: 110%;
   height: 100px;
   line-height: 100px;
-  background: linear-gradient(rgb(6, 65, 70), transparent);
+  background: linear-gradient(rgb(143, 222, 229), transparent);
   z-index: 100;
 }
 .nav-logo p{
-  color: white;
+  color: rgb(27, 169, 204);
   font-size: 25px;
   font-weight: 600;
 }
 .nav-menu ul {
   display: flex;
-}
+} 
 .nav-menu ul li{
   list-style-type: none;
 }
 .nav-menu ul li .link{
   text-decoration: none;
   font-weight: 500;
-  color: #ffff;
+  color: #17d1df;
   padding-bottom: 15px;
   margin: 0 30px;
+  font-size: 20px;
 }
 .link:hover, .active {
   border-bottom: 2px solid #ffff;
@@ -133,7 +134,7 @@ body{
   width: 130px;
   height: 40px;
   font-weight: 500;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(13, 191, 204, 0.4);
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -183,7 +184,7 @@ body{
   margin-left: 5px;
 }
 header {
-  color: #fff;
+  color: #159ea8;
   font-size: 30px;
   text-align: center;
   margin-bottom: 25px;
